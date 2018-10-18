@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.zhuzb.itsPet.utils.XCRoundImageView
+            android:id="@+id/message_tva_imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:srcCompat="@mipmap/img_touxiang" />
+
+        <TextView
+            android:id="@+id/message_tva_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="西柚先生"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/message_tva_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018/05/12 19:23" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/message_tva_pl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="评论：十月份刚接回寝室的咩咩，还没有带回家过，就在寝室养着,刚接到咩咩，旁边那只美短是舍友同一天去买的,刚接到咩咩，旁边那只美短是舍友同一天去买的。" />
+</LinearLayout>

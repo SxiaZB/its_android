@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\its_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sxia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\81a87f963f2a5672f4e864d6a486e9cf\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\Androidstudio\\ItsPetApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sxia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\81a87f963f2a5672f4e864d6a486e9cf\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

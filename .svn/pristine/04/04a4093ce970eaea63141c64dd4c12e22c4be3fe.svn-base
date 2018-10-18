@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center_vertical"
+            android:paddingTop="7dp">
+
+            <ImageButton
+                android:id="@+id/note_bt"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/ic_fanhui_left_black_24dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note_tab"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="38dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="8dp"
+        android:paddingTop="6dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fadingEdge="vertical"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/its_list_view"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="4dp">
+                    <!--宠物信息-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="2dp"
+                        android:paddingVertical="4dp">
+
+                        <com.zhuzb.itsPet.utils.XCRoundImageView
+                            android:id="@+id/note_userimg"
+                            android:layout_width="120px"
+                            android:layout_height="120px"
+                            app:srcCompat="@drawable/cw_touxiang" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/note_usertv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLength="8"
+                                android:text="蓝宝吾皇" />
+
+                            <TextView
+                                android:id="@+id/note_dj_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="十八线名宠" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/note_fs_tv"
+                            android:layout_width="235px"
+                            android:layout_height="88px"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="15px"
+                            android:background="@drawable/its_rm_anniu"
+                            android:gravity="center"
+                            android:text="＋ 粉丝团" />
+                    </LinearLayout>
+                    <!--主图-->
+                    <ImageView
+                        android:id="@+id/list_note_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="1000px"
+                        android:maxWidth="1350px"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img0" />
+
+                    <TextView
+                        android:id="@+id/note_tv_liuyan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="100"
+                        android:paddingHorizontal="2dp"
+                        android:paddingTop="2dp"
+                        android:text="言：蓝宝吾皇今日早上微服私访七品铲屎官的卧室，竟然发现铲屎官在偷吃朕的小鱼干！" />
+                    <!--用户操作-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="2dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorF0" />
+
+                        <TextView
+                            android:id="@+id/note_tv_shijian"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2018/04/24 23:31"
+                            android:textSize="30px" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorF0" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="2dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+                        <!--分享-->
+                        <LinearLayout
+                            android:id="@+id/note_fengxiang0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/its_rm_caozuo"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="6dp"
+                            android:paddingVertical="2dp">
+
+                            <ImageView
+                                android:id="@+id/note_fengxiang1"
+                                android:layout_width="40px"
+                                android:layout_height="48px"
+                                android:adjustViewBounds="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_fengxiang_black_24dp" />
+
+                            <TextView
+                                android:id="@+id/note_fengxiang2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="分享"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="36px" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+                        <!--收藏-->
+                        <LinearLayout
+                            android:id="@+id/note_shouchang0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/its_rm_caozuo"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="6dp"
+                            android:paddingVertical="2dp">
+
+                            <ImageView
+                                android:id="@+id/note_shouchang1"
+                                android:layout_width="40px"
+                                android:layout_height="48px"
+                                android:adjustViewBounds="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_shoucang_black_24dp" />
+
+                            <TextView
+                                android:id="@+id/note_shouchang2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="收藏"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="36px" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+                        <!--点赞-->
+                        <LinearLayout
+                            android:id="@+id/note_dianzan0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/its_rm_caozuo"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="6dp"
+                            android:paddingVertical="2dp">
+
+                            <ImageView
+                                android:id="@+id/note_dianzan1"
+                                android:layout_width="40px"
+                                android:layout_height="48px"
+                                android:adjustViewBounds="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_dianzan_black_24dp" />
+
+                            <TextView
+                                android:id="@+id/note_dianzan2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="点赞"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="36px" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorF0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="历史评论" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorF0" />
+                </LinearLayout>
+
+                <com.zhuzb.itsPet.utils.ScrollListView
+                    android:id="@+id/note_pinlun_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="8dp"
+                    android:divider="@color/color2"
+                    android:dividerHeight="1dp"
+                    android:layout_marginTop="2dp"></com.zhuzb.itsPet.utils.ScrollListView>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/note_pinlun_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="评论:"
+                android:maxLength="50"
+                android:maxLines="4"
+                android:minLines="2"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/note_pinglun0"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="4dp"
+                android:background="@drawable/bt_zhangtai_set"
+                android:text="评论"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

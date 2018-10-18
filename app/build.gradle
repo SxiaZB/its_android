@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+//// 添加插件
+apply plugin: 'com.mob.sdk'
+
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.example.sxia.myapplication"
+        minSdkVersion 22
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+// 在MobSDK的扩展中注册BBSSDK的相关信息
+MobSDK {
+    appKey "23ee476d66f79"
+    appSecret "4795b127b1866847a073f460a7aac9e4"
+    UMSSDK {}
+
+    ShareSDK {
+        gui true
+        devInfo {
+            SinaWeibo {
+                appKey "568898243"
+                appSecret "38a4f8204cc784f81f9f0daaf31e02e3"
+                callbackUri "http://www.sharesdk.cn"
+                shareByAppClient false
+            }
+            Wechat {
+                appId "wx40925465ed9df8e4"
+                appSecret "a60d006caa977bfd4b09329166e2502a"
+            }
+            QQ {
+                appId "100371282"
+                appKey "aed9b0303e3ed1e27bae87c33761161d"
+            }
+        }
+    }
+    SMSSDK {
+        gui true
+    }
+}
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    compile 'com.github.yellowhai:TimeSelector:1.5'
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:design:26.+'
+    testCompile 'junit:junit:4.12'
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'org.xutils:xutils:3.5.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+}

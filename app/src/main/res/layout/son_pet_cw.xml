@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="14dp"
+    android:background="@drawable/pet_list_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--姓名-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="姓 名"
+                    android:textColor="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/pet_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="蓝宝吾皇"/>
+            </LinearLayout>
+            <!--性别 品种-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="性 别"
+                    android:textColor="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/pet_user_sex"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="公"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="品 种"
+                    android:textColor="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/pet_user_breed"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="英短蓝猫"/>
+            </LinearLayout>
+            <!--出生-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="出 生"
+                    android:textColor="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/pet_user_sr_year"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="2017"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:text="年"
+                    android:textColor="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/pet_user_sr_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="12"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="3dp"
+                    android:text="月"
+                    android:textColor="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/pet_user_sr_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="15"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="3dp"
+                    android:text="日"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+            <!--备 注-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="备 注"
+                    android:textColor="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/pet_user_bz"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"
+                    android:text="爱吃萝卜爱吃菜粘人不闹很听话"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.zhuzb.itsPet.utils.XCRoundImageView
+            android:id="@+id/pet_userimg"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="6dp"
+            app:srcCompat="@drawable/cw_touxiang"/>
+    </LinearLayout>
+
+    <!--宠名身份编号-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="宠名身份号码"
+            android:textColor="@color/colorAccent" />
+        <TextView
+            android:id="@+id/pet_user_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="362528201712154010"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

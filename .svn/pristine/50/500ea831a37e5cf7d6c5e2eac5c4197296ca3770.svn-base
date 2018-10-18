@@ -1,0 +1,36 @@
+package com.zhuzb.itsPet.db;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+/**
+ * 说明： 本地数据库
+ * 作者： 朱志波
+ * 时间： 2018/4/5 0005 16:11
+ * 邮箱： zhuzhibo2017@163.com
+ */
+public class ItsDb extends SQLiteOpenHelper {
+    private final static int version=1;
+    private final static String DBNAME="its_pet.db";
+    public ItsDb(Context context) {
+        super(context, DBNAME, null, version);
+        // TODO 自动生成的构造函数存根
+    }
+
+    @Override
+    public void onCreate(SQLiteDatabase db) {
+        db.execSQL("create table tb_user (user nvarchar(20) primary key, paw varchar(10))"); //用户表
+        db.execSQL("create table tb_io_account (_id integer primary key autoincrement, user nvarchar(20), money float, time varchar(10)," +
+                " type nvarchar(10), mark nvarchar(200), io int)");  //收支表
+        db.execSQL("create table tb_flag (_id integer primary key autoincrement, time  varchar(10), info nvarchar(1000))"); //日志信息表
+        db.execSQL("create table tb_yuzhi (_id integer primary key autoincrement, canyin integer, gouwu integer, chuxing integer, yule integer, jiayong integer, tongxing integer, jiaoyu integer, qita integer)"); //日志信息表
+
+    }
+    @Override
+    public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
+        // TODO 自动生成的方法存根
+
+    }
+
+}

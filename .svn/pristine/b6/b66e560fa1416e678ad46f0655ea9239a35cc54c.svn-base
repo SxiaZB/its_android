@@ -1,0 +1,230 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\81a87f963f2a5672f4e864d6a486e9cf\AndroidManifest.xml:17:1-31:12
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\772dcafa79a11e8fa18497c75acff2d5\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\161675d345cac6d9ed6587b99b4156ad\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cc18006813e49b1dbfc0fc1d6fa87ea9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\681d3b52bf79296d9d7ec9e0fd7b3cea\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\95e8bbd18f0481e244217dd982bd3dfc\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\41d43beb89546ee13d55866249749c03\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e101a4efd6b5ef4c3a8a7f1944087f30\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b2d8a90bf8899d1f5cfaee30e3cd7a3d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a1d357f99ccfcf18e9dcc17f09007f7c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\03696c5f7394e2e5ff0d8290acf36892\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\da62904426d416b771a9b23269bc5163\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dc5714354fd59f7d3c98ca4b8ec5c6a1\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b61bb25365b28d9ed47b129c7542694c\AndroidManifest.xml:17:1-30:12
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:11:22-73
+application
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:13:5-47:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\81a87f963f2a5672f4e864d6a486e9cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\81a87f963f2a5672f4e864d6a486e9cf\AndroidManifest.xml:25:5-29:19
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\772dcafa79a11e8fa18497c75acff2d5\AndroidManifest.xml:12:5-20
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\772dcafa79a11e8fa18497c75acff2d5\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\161675d345cac6d9ed6587b99b4156ad\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\161675d345cac6d9ed6587b99b4156ad\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cc18006813e49b1dbfc0fc1d6fa87ea9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cc18006813e49b1dbfc0fc1d6fa87ea9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\681d3b52bf79296d9d7ec9e0fd7b3cea\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\681d3b52bf79296d9d7ec9e0fd7b3cea\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\95e8bbd18f0481e244217dd982bd3dfc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\95e8bbd18f0481e244217dd982bd3dfc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\41d43beb89546ee13d55866249749c03\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\41d43beb89546ee13d55866249749c03\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e101a4efd6b5ef4c3a8a7f1944087f30\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e101a4efd6b5ef4c3a8a7f1944087f30\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b2d8a90bf8899d1f5cfaee30e3cd7a3d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b2d8a90bf8899d1f5cfaee30e3cd7a3d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a1d357f99ccfcf18e9dcc17f09007f7c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a1d357f99ccfcf18e9dcc17f09007f7c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\03696c5f7394e2e5ff0d8290acf36892\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\03696c5f7394e2e5ff0d8290acf36892\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\da62904426d416b771a9b23269bc5163\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\da62904426d416b771a9b23269bc5163\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dc5714354fd59f7d3c98ca4b8ec5c6a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dc5714354fd59f7d3c98ca4b8ec5c6a1\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b61bb25365b28d9ed47b129c7542694c\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b61bb25365b28d9ed47b129c7542694c\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:17:9-41
+	android:hardwareAccelerated
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:21:9-43
+	android:largeHeap
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:20:9-33
+	android:icon
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:16:9-45
+	android:allowBackup
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:19:9-40
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:14:9-39
+meta-data#Mob-AppKey
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:22:9-24:45
+	android:value
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:24:13-42
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:23:13-38
+meta-data#Mob-AppSecret
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:25:9-27:64
+	android:value
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:27:13-61
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:26:13-41
+activity#com.zhuzb.itsPet.ui.acticity.WelcomeActivity
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:30:9-41:20
+	android:label
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:32:13-45
+	android:theme
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:33:13-48
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:31:13-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.zhuzb.itsPet.ui.acticity.LeftMainActivity
+ADDED from G:\its_android\app\src\main\AndroidManifest.xml:44:9-46:68
+	android:theme
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml:45:13-57
+uses-sdk
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\81a87f963f2a5672f4e864d6a486e9cf\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\81a87f963f2a5672f4e864d6a486e9cf\AndroidManifest.xml:21:5-23:78
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\772dcafa79a11e8fa18497c75acff2d5\AndroidManifest.xml:8:5-10:41
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\772dcafa79a11e8fa18497c75acff2d5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\161675d345cac6d9ed6587b99b4156ad\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\161675d345cac6d9ed6587b99b4156ad\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cc18006813e49b1dbfc0fc1d6fa87ea9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cc18006813e49b1dbfc0fc1d6fa87ea9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\681d3b52bf79296d9d7ec9e0fd7b3cea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\681d3b52bf79296d9d7ec9e0fd7b3cea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\95e8bbd18f0481e244217dd982bd3dfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\95e8bbd18f0481e244217dd982bd3dfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\41d43beb89546ee13d55866249749c03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\41d43beb89546ee13d55866249749c03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e101a4efd6b5ef4c3a8a7f1944087f30\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e101a4efd6b5ef4c3a8a7f1944087f30\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b2d8a90bf8899d1f5cfaee30e3cd7a3d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b2d8a90bf8899d1f5cfaee30e3cd7a3d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a1d357f99ccfcf18e9dcc17f09007f7c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a1d357f99ccfcf18e9dcc17f09007f7c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\03696c5f7394e2e5ff0d8290acf36892\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\03696c5f7394e2e5ff0d8290acf36892\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\da62904426d416b771a9b23269bc5163\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\da62904426d416b771a9b23269bc5163\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dc5714354fd59f7d3c98ca4b8ec5c6a1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dc5714354fd59f7d3c98ca4b8ec5c6a1\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b61bb25365b28d9ed47b129c7542694c\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b61bb25365b28d9ed47b129c7542694c\AndroidManifest.xml:20:5-22:41
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+		ADDED from G:\its_android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\its_android\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\81a87f963f2a5672f4e864d6a486e9cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\81a87f963f2a5672f4e864d6a486e9cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cc18006813e49b1dbfc0fc1d6fa87ea9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cc18006813e49b1dbfc0fc1d6fa87ea9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\681d3b52bf79296d9d7ec9e0fd7b3cea\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\681d3b52bf79296d9d7ec9e0fd7b3cea\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\95e8bbd18f0481e244217dd982bd3dfc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\95e8bbd18f0481e244217dd982bd3dfc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\41d43beb89546ee13d55866249749c03\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\41d43beb89546ee13d55866249749c03\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e101a4efd6b5ef4c3a8a7f1944087f30\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e101a4efd6b5ef4c3a8a7f1944087f30\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b2d8a90bf8899d1f5cfaee30e3cd7a3d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b2d8a90bf8899d1f5cfaee30e3cd7a3d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a1d357f99ccfcf18e9dcc17f09007f7c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\a1d357f99ccfcf18e9dcc17f09007f7c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\03696c5f7394e2e5ff0d8290acf36892\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\03696c5f7394e2e5ff0d8290acf36892\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\da62904426d416b771a9b23269bc5163\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\da62904426d416b771a9b23269bc5163\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dc5714354fd59f7d3c98ca4b8ec5c6a1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dc5714354fd59f7d3c98ca4b8ec5c6a1\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\637e6157b621afab0d9fb3b6ca5b52c6\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b61bb25365b28d9ed47b129c7542694c\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b61bb25365b28d9ed47b129c7542694c\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Sxia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b61bb25365b28d9ed47b129c7542694c\AndroidManifest.xml:26:13-58

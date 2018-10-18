@@ -1,0 +1,104 @@
+package com.zhuzb.itsPet.ui.fragment;
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import com.zhuzb.itsPet.R;
+import com.zhuzb.itsPet.model.message.MessageTVBitem;
+import com.zhuzb.itsPet.ui.acticity.LeftMainActivity;
+import com.zhuzb.itsPet.ui.adapter.message.MessageTVBadapter;
+
+import org.xutils.view.annotation.ContentView;
+import org.xutils.view.annotation.ViewInject;
+import org.xutils.x;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author zhuzb
+ * @date on 2018/4/20 0020
+ * @email zhuzhibo2017@163.com
+ */
+@ContentView(value = R.layout.main_message_tvb)
+public class FragmentMessageTVB extends Fragment {
+    @ViewInject( value = R.id.message_tvb_item)
+    private ListView listView;
+
+    private List<MessageTVBitem> messageTVBitemList;
+    private MessageTVBadapter messageTVBadapter;
+
+
+    //回调父级页面
+    private LeftMainActivity leftMainActivity ;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate( R.layout.main_message_tvb,null);
+        x.view().inject(this, view);
+        leftMainActivity = (LeftMainActivity) getActivity();
+        initData();
+        return view;
+    }
+
+    private void initData() {
+        messageTVBitemList = new ArrayList<MessageTVBitem>(  );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+        messageTVBitemList.add( new MessageTVBitem() );
+
+        messageTVBadapter = new MessageTVBadapter( getActivity(),messageTVBitemList );
+        listView.setAdapter( messageTVBadapter );
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Toast.makeText(getActivity(), "第" + i + "行", Toast.LENGTH_LONG).show();
+            }
+        });
+        listView.setOnTouchListener( new View.OnTouchListener() {
+            float x1 = 0;
+            float x2 = 0;
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    //按下时监听
+                    case MotionEvent.ACTION_DOWN:
+                        x1 = event.getX();
+                        break;
+                    //抬起时监听
+                    case MotionEvent.ACTION_UP:
+                        x2 = event.getX();
+                        if ( x2 - x1 < 0
+                                && (Math.abs( x2 - x1 ) > 100)) {
+                        }else if( x2 - x1 > 0
+                                && (Math.abs( x2 - x1 ) > 200)) {
+                            leftMainActivity.isShowa( 2,0);
+                        }
+                        break;
+                }
+                return false;
+            }
+        } );
+    }
+}

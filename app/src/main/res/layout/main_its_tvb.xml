@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--its中心本地模块页面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--添加记录-->
+    <Button
+        android:id="@+id/its_tvb_add_bt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/ic_addits_tvb_bt"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="17sp"
+        android:text="＋ 点击添加宠物记录" />
+    <!--its中心本地-->
+    <ListView
+        android:id="@+id/its_tvb_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="8dp"
+        android:divider="@color/colorWhite"
+        android:dividerHeight="10dp"></ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="哇~ 数据不见了......"/>
+</LinearLayout>

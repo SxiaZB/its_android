@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">养宠</string>
+    <string name="title_home">its</string>
+    <string name="title_dashboard">养宠</string>
+    <string name="title_notifications">消息</string>
+    <string name="main_pets">发现</string>
+    <string name="main_mypet">我的</string>
+    <string name="comment">评论</string>
+    <string name="message">私信</string>
+    <string name="title_activity_left">LeftActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings_a">搜索</string>
+    <string name="action_settings_b">新添记录</string>
+    <string name="action_settings_c">宠物服务</string>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">养宠</string>
+    <string name="title_home">its</string>
+    <string name="title_dashboard">养宠</string>
+    <string name="title_notifications">消息</string>
+    <string name="main_pets">发现</string>
+    <string name="main_mypet">我的</string>
+    <string name="comment">评论</string>
+    <string name="message">私信</string>
+    <string name="title_activity_left">导航页面</string>
+
+    <string name="navigation_drawer_open">打开导航菜单</string>
+    <string name="navigation_drawer_close">关闭导航菜单</string>
+
+    <string name="action_settings_a">搜索</string>
+    <string name="action_settings_b">新添记录</string>
+    <string name="action_settings_c">宠物服务</string>
+
+    <string name="add_pet_note_tab">新添记录</string>
+    <string name="add_pet_tab">新添宠物</string>
+
+    <string name="note_tab">评论页</string>
+
+    <string name="love_tab">收藏夹</string>
+    <string name="follow_tab">我的关注</string>
+
+    <string name="share">its养宠——看萌宠</string>
+
+    <string-array name="spingarr">
+        <item>无</item>
+    </string-array>
+    <string-array name="spxingbie">
+        <item>公</item>
+        <item>母</item>
+    </string-array>
+</resources>

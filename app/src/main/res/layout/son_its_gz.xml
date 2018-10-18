@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--热门文章列表-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="8dp"
+    android:background="@drawable/its_list_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--宠物信息-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="2dp"
+        android:paddingVertical="4dp">
+
+        <com.zhuzb.itsPet.utils.XCRoundImageView
+            android:id="@+id/its_gz_userimg"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            app:srcCompat="@drawable/cw_touxiang"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/its_gz_usertv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="8"
+                android:text="蓝宝吾皇" />
+
+            <TextView
+                android:id="@+id/its_gz_dj_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="十八线名宠" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/its_gz_fs_tv"
+            android:layout_width="235px"
+            android:layout_height="88px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15px"
+            android:background="@drawable/its_gz_anniu"
+            android:gravity="center"
+            android:text="蓝宝粉团" />
+    </LinearLayout>
+    <!--主图-->
+    <ImageView
+        android:id="@+id/list_its_gz_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:maxHeight="1440px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img0" />
+
+    <TextView
+        android:id="@+id/its_gz_tv_liuyan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="100"
+        android:paddingTop="2dp"
+        android:paddingHorizontal="2dp"
+        android:text="言：蓝宝吾皇今日早上微服私访七品铲屎官的卧室，竟然发现铲屎官在偷吃朕的小鱼干！" />
+    <!--用户操作-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="2dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="2dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorF0"/>
+        <TextView
+            android:id="@+id/its_gz_tv_shijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30px"
+            android:text="2018/04/24 23:31" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorF0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="2dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!--分享-->
+        <LinearLayout
+            android:id="@+id/its_gz_fengxiang0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/its_gz_caozuo"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingVertical="2dp"
+            android:paddingHorizontal="6dp">
+
+            <ImageView
+                android:id="@+id/its_gz_fengxiang1"
+                android:layout_width="40px"
+                android:layout_height="48px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_fengxiang_black_24dp" />
+
+            <TextView
+                android:id="@+id/its_gz_fengxiang2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分享"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36px" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!--收藏-->
+        <LinearLayout
+            android:id="@+id/its_gz_shouchang0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/its_gz_caozuo"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingVertical="2dp"
+            android:paddingHorizontal="6dp">
+
+            <ImageView
+                android:id="@+id/its_gz_shouchang1"
+                android:layout_width="40px"
+                android:layout_height="48px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_shoucang_black_24dp" />
+
+            <TextView
+                android:id="@+id/its_gz_shouchang2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收藏"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36px" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!--点赞-->
+        <LinearLayout
+            android:id="@+id/its_gz_dianzan0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/its_gz_caozuo"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingVertical="2dp"
+            android:paddingHorizontal="6dp">
+
+            <ImageView
+                android:id="@+id/its_gz_dianzan1"
+                android:layout_width="40px"
+                android:layout_height="48px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_dianzan_black_24dp" />
+
+            <TextView
+                android:id="@+id/its_gz_dianzan2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点赞"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36px" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!--评论-->
+        <LinearLayout
+            android:id="@+id/its_gz_pinglun0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/its_gz_caozuo"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingVertical="2dp"
+            android:paddingHorizontal="6dp">
+
+            <ImageView
+                android:id="@+id/its_gz_pinglun1"
+                android:layout_width="40px"
+                android:layout_height="48px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_pinglun_black_24dp" />
+
+            <TextView
+                android:id="@+id/its_gz_pinglun2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评论"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36px" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

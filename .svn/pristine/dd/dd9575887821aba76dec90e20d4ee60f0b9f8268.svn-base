@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zhuzb.itsPet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_c"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        tools:replace="android:icon, android:theme"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="Mob-AppKey"
+            android:value="23ee476d66f79" />
+        <meta-data
+            android:name="Mob-AppSecret"
+            android:value="4795b127b1866847a073f460a7aac9e4" />
+
+
+
+        <!-- APP启动页 -->
+        <activity
+            android:name=".ui.acticity.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/ThemeWelcome">
+
+            <!-- android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 首页 -->
+        <activity
+            android:name=".ui.acticity.LeftMainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <!-- 添加宠物记录 -->
+        <activity android:name=".ui.acticity.AddPetNoteActivity"></activity>
+        <!-- 添加宠物 -->
+        <activity android:name=".ui.acticity.AddPetActivity"></activity>
+        <!--评论-->
+        <activity android:name=".ui.acticity.CommentActivity"></activity>
+        <!--关注-->
+        <activity android:name=".ui.acticity.FollowActivity"></activity>
+        <!--收藏-->
+        <activity android:name=".ui.acticity.LoveActivity"></activity>
+        <!--修改宠物-->
+        <activity android:name=".ui.acticity.UpdataPetActivity"></activity>
+    </application>
+
+</manifest>

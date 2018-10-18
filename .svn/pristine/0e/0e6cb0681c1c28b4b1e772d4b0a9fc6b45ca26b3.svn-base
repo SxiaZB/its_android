@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center_vertical"
+            android:paddingTop="7dp">
+
+            <ImageButton
+                android:id="@+id/add_pet_note_bt"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/ic_fanhui_left_black_24dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_pet_tab"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="38dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorF0" />
+
+                <TextView
+                    android:id="@+id/add_pet_note_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018-05-21 16:20:20" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="1dp"
+                    android:background="@color/colorF0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="添加一张图片：" />
+
+            <ImageView
+                android:id="@+id/add_pet_note_img"
+                android:layout_width="match_parent"
+                android:layout_height="600px"
+                android:layout_marginHorizontal="8dp"
+                android:src="@drawable/add_img" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="8dp"
+                android:background="@color/colorF0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:text="添加留言：" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <EditText
+                    android:id="@+id/add_pet_note_liuyan_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:inputType="textMultiLine"
+                    android:maxLength="150"
+                    android:hint="不许空着！！！ 哼~"
+                    android:maxLines="6"
+                    android:minLines="3"
+                    android:textSize="16sp"
+                    android:scrollbars="vertical"
+                    android:text="给朕护驾！"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="选择宠物：" />
+
+            <Spinner
+                android:id="@+id/add_pet_note_chongwu_sp"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginLeft="8dp"
+                android:entries="@array/spingarr" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="-2dp"
+                android:background="@color/color8" />
+
+
+            <Button
+                android:id="@+id/add_pet_note_baocun_bt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="32dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bt_zhangtai_set"
+                android:enabled="false"
+                android:text="保存和发表"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

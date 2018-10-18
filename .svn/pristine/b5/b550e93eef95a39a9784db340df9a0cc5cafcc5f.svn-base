@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center_vertical"
+            android:paddingTop="7dp">
+
+            <ImageButton
+                android:id="@+id/follow_bt"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/ic_fanhui_left_black_24dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/follow_tab"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="38dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="4dp"
+        android:paddingTop="8dp">
+
+        <ListView
+            android:id="@+id/follow_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="4dp"
+            android:divider="@color/colorWhite"
+            android:dividerHeight="8dp"></ListView>
+    </LinearLayout>
+</LinearLayout>

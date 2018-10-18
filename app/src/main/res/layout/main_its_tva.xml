@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?><!--its中心宠圈模块页面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--宠圈模块 ，菜单-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--热门-->
+        <LinearLayout
+            android:id="@+id/its_ll_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/its_reMen_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="热门"
+                android:textColor="@drawable/its_text_color0"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/its_reMen_1"
+                android:layout_width="match_parent"
+                android:layout_height="7px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/its_background_color1"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+        <!--关注-->
+        <LinearLayout
+            android:id="@+id/its_ll_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/its_guanZhu_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="关注"
+                android:textColor="@drawable/its_text_color0"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/its_guanZhu_1"
+                android:layout_width="match_parent"
+                android:layout_height="7px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/its_background_color1"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+        <!--名宠榜-->
+        <LinearLayout
+            android:id="@+id/its_ll_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/its_paiHangBang_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="名宠榜"
+                android:textColor="@drawable/its_text_color0"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/its_paiHangBang_1"
+                android:layout_width="match_parent"
+                android:layout_height="7px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/its_background_color1"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--宠圈模块显示窗口-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/its_tva_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

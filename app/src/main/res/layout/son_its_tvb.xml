@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="8dp"
+    android:background="@drawable/its_list_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--我的记录-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="2dp"
+        android:paddingVertical="4dp">
+
+        <com.zhuzb.itsPet.utils.XCRoundImageView
+            android:id="@+id/its_tvb_userimg"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            app:srcCompat="@drawable/cw_touxiang"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/its_tvb_usertv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="8"
+                android:text="蓝宝吾皇" />
+
+            <TextView
+                android:id="@+id/its_tvb_dj_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="十八线名宠" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/its_tvb_fb_tv"
+            android:layout_width="235px"
+            android:layout_height="88px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15px"
+            android:background="@drawable/its_tvb_anniu"
+            android:gravity="center"
+            android:text="查看" />
+    </LinearLayout>
+    <!--主图-->
+    <ImageView
+        android:id="@+id/list_its_tvb_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:maxHeight="1440px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img0" />
+
+    <TextView
+        android:id="@+id/its_tvb_tv_liuyan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="100"
+        android:paddingTop="2dp"
+        android:paddingHorizontal="2dp"
+        android:text="蓝宝吾皇今日早上微服私访七品铲屎官的卧室，竟然发现铲屎官在偷吃朕的小鱼干！" />
+    <!--用户操作-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:layout_marginVertical="2dp">
+        <TextView
+            android:id="@+id/its_tvb_tv_shijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="2018/04/24 23:31"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!--删除-->
+        <LinearLayout
+            android:id="@+id/its_tvb_bianji0"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:background="@drawable/its_tvb_caozuo"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp"
+            android:layout_marginRight="11dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/its_tvb_bianji1"
+                android:layout_width="50px"
+                android:layout_height="58px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_delete_note_black_24dp" />
+
+            <TextView
+                android:id="@+id/its_tvb_bianji2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="删除"
+                android:textColor="@color/colorPrimary"
+                android:textSize="42px" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

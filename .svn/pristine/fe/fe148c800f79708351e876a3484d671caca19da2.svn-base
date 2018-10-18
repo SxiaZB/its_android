@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center_vertical"
+            android:paddingTop="7dp">
+
+            <ImageButton
+                android:id="@+id/add_pet_bt"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/ic_fanhui_left_black_24dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pet_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_pet_tab"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="38dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/colorF0" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                android:background="@color/colorF0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/add_pet_userimg0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="添加宠物头像：" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.zhuzb.itsPet.utils.XCRoundImageView
+                android:id="@+id/add_pet_userimg"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/ic_add_img" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:text="提示：仅允许从图库添加照片！"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@color/colorF0" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="vertical"
+            android:paddingTop="10dp"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="姓名：" />
+
+                    <EditText
+                        android:id="@+id/add_pet_name_et"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="不许空着！！！"
+                        android:inputType="textMultiLine"
+                        android:maxLength="8"
+                        android:maxLines="1"
+                        android:scrollbars="vertical"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" 提示：不为空最长8位"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="性别：" />
+
+                    <Spinner
+                        android:id="@+id/add_pet_xingbie_sp"
+                        android:layout_width="210dp"
+                        android:layout_height="36dp"
+                        android:entries="@array/spxingbie" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="品种：" />
+
+                    <EditText
+                        android:id="@+id/add_pet_pz_et"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="不许空着！！！"
+                        android:inputType="textMultiLine"
+                        android:maxLength="6"
+                        android:maxLines="1"
+                        android:scrollbars="vertical"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" 提示：不为空最长6位"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="出生：" />
+
+                    <TextView
+                        android:id="@+id/add_pet_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:text="2018年01月01日"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/add_pet_time_bt"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="点击选择时间" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorF0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:text="添加留言：" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <EditText
+                        android:id="@+id/add_pet_beizu_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="16dp"
+                        android:hint="添加备注"
+                        android:inputType="textMultiLine"
+                        android:maxLength="50"
+                        android:maxLines="4"
+                        android:minLines="2"
+                        android:scrollbars="vertical"
+                        android:text="无话可说"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="粉丝团名称：" />
+
+                    <EditText
+                        android:id="@+id/add_pet_follow_et"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:hint="粉丝团"
+                        android:inputType="textMultiLine"
+                        android:maxLength="4"
+                        android:maxLines="1"
+                        android:text="爱宠粉"
+                        android:scrollbars="vertical"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" 提示：最长4位"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/add_pet_baocun_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginHorizontal="32dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bt_addpet_set"
+                    android:enabled="false"
+                    android:text="添加宠物"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
